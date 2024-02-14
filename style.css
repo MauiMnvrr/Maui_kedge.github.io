@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px;
+    padding: 5px 30px;
+    position: relative;
+}
+
+img {
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.photo-gallery {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    overflow: auto; 
+}
+
+.photo {
+    width: 48%; 
+    height: auto;
+    border-radius: 5px; 
+}
+
+.header-card {
+    background-image: url(Images/Vague\ Surf.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 120px; 
+    position: relative;
+    height: 300px;
+    padding-top: 250px;
+}
+
+.profile-picture {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    background: #eee;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+.school-logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+}
+
+
+.info-card h2 {
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.info-card p {
+    color: #666;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(20, 20, 20); 
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.social-media {
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    margin: 0 30px;
+    display: inline-block;
+}
+
+.social-media img {
+    width: 45px; 
+    height: auto;
+}
+
+footer p {
+    font-size: 1em;
+}
